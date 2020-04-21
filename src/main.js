@@ -1,8 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import router from './router'
 
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// import style
+import '../node_modules/swiper/css/swiper.css'
+// require('swiper/dist/css/swiper.css')
+
+Vue.use(VueAwesomeSwiper)
 Vue.config.productionTip = false
 
 new Vue({
   render: h => h(App),
+  router,
 }).$mount('#app')
