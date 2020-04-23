@@ -38,5 +38,4 @@ export default {
     background-color: var(--color-tint);
     color: white;
   }
-
 </style>
